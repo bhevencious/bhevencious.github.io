@@ -2249,18 +2249,18 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
-#contact {
+#testimonials {
 	background: #151515;
 	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
-#contact .section-intro h1 {
+#testimonials .section-intro h1 {
 	color: white;
 }
-#contact .section-intro h5 {
+#testimonials .section-intro h5 {
 	color: #FF0077;
 }
-#contact .section-intro p {
+#testimonials .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
 }
 
@@ -2285,21 +2285,21 @@ header .logo a {
 	color: rgba(255, 255, 255, 0.3) !important;
 }
 
-#contact form {
+#testimonials form {
 	margin-top: 0;
 	margin-bottom: 3rem;
 }
-#contact form .form-field {
+#testimonials form .form-field {
 	position: relative;
 }
-#contact form .form-field:before, #contact form .form-field:after {
+#testimonials form .form-field:before, #testimonials form .form-field:after {
 	content: "";
 	display: table;
 }
-#contact form .form-field:after {
+#testimonials form .form-field:after {
 	clear: both;
 }
-#contact form .form-field label {
+#testimonials form .form-field label {
 	font-family: "poppins-bold", sans-serif;
 	font-size: 1.1rem;
 	line-height: 2.4rem;
@@ -2313,7 +2313,7 @@ header .logo a {
 	color: #FFFFFF;
 	background: #FF0077;
 }
-#contact form .form-field label::after {
+#testimonials form .form-field label::after {
 	position: absolute;
 	left: -5px;
 	top: 50%;
@@ -2323,37 +2323,37 @@ header .logo a {
 	border-right: 5px solid #FF0077;
 	content: "";
 }
-#contact input[type="text"],
-#contact input[type="password"],
-#contact input[type="email"],
-#contact textarea {
+#testimonials input[type="text"],
+#testimonials input[type="password"],
+#testimonials input[type="email"],
+#testimonials textarea {
 	width: 100%;
 	color: rgba(255, 255, 255, 0.7);
 	margin-bottom: 0;
 	border: none;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-#contact input[type="text"],
-#contact input[type="password"],
-#contact input[type="email"] {
+#testimonials input[type="text"],
+#testimonials input[type="password"],
+#testimonials input[type="email"] {
 	height: 6.6rem;
 	padding: 1.8rem 2rem;
 }
-#contact input[type="text"]:focus,
-#contact input[type="password"]:focus,
-#contact input[type="email"]:focus {
+#testimonials input[type="text"]:focus,
+#testimonials input[type="password"]:focus,
+#testimonials input[type="email"]:focus {
 	border-color: #FF0077;
 	color: #FFFFFF;
 }
-#contact textarea {
+#testimonials textarea {
 	min-height: 20rem;
 	padding: 1.8rem 2rem;
 }
-#contact textarea:focus {
+#testimonials textarea:focus {
 	border-color: #FF0077;
 	color: #FFFFFF;
 }
-#contact button.submitform {
+#testimonials button.submitform {
 	font-size: 1.5rem;
 	display: block;
 	letter-spacing: .2rem;
@@ -2365,7 +2365,7 @@ header .logo a {
 	background: #FF0077;
 	color: #FFFFFF;
 }
-#contact button.submitform:hover, #contact button.submitform:focus {
+#testimonials button.submitform:hover, #testimonials button.submitform:focus {
 	background: #cc005f;
 }
 #message-warning, #message-success {
